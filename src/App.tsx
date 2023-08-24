@@ -1,5 +1,5 @@
 import { ComponentFooter, ComponentHeader } from "./components";
-import { PageHome, PageList } from "./pages";
+import { PageHome, PageComentarios, PageCads } from "./pages";
 import { GlobalStyle, Main } from "./styles/GlobalStyle";
 import { Dispatch, SetStateAction, useState } from "react";
 
@@ -14,7 +14,10 @@ export function App() {
       component = <PageHome />
       break;
     case 2:
-      component = <PageList />
+      component = <PageComentarios />
+      break;
+    case 3:
+      component = <PageCads />
       break;
     default:
       component = <PageHome />

@@ -1,2 +1,3 @@
 export { Home as PageHome } from "./Home"
-export { List as PageList } from "./List"
+export { Comentarios as PageComentarios } from "./Comentarios"
+export {Cads as PageCads} from "./Cads"
